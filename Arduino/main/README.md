@@ -9,7 +9,7 @@ Este directorio contiene el firmware programado para la placa Arduino.
 - **Comunicación Serial:** Envío periódico de estados locales y recepción de comandos desde Processing a una velocidad de `9600 baudios`.
 
 ## Conexión del Circuito
-![Esquemático del Circuito](./circuito.jpg)
+![Esquemático del Circuito](./conexion.png)
 
 - **Pin 2:** Pulsador / Entrada 1 (`E1`) hacia GND.
 - **Pin 3:** Pulsador / Entrada 2 (`E2`) hacia GND.
