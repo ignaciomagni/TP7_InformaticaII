@@ -8,7 +8,7 @@ Este trabajo práctico consiste en el desarrollo de un sistema de control y moni
 
 ## Video de Demostración
 A continuación se puede observar el funcionamiento completo del sistema integrado en la PC y el hardware físico:
-* 🔗 [Ver video de demostración](ENLACE_DEL_VIDEO_AQUI)
+* 🔗 [Ver video de demostración](https://youtu.be/8qZ_Jom1B4M)
 
 ## Estructura del Repositorio
 - `arduino/`: Contiene el código fuente (`.ino`) para la placa Arduino.
