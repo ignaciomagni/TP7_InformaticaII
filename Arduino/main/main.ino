@@ -25,9 +25,9 @@ void loop() {
   bool lecturaE2 = digitalRead(pinE2);
 
   if (lecturaE1 == LOW && estadoAnteriorE1 == HIGH) {
-    delay(30); // Antirrebote básico por software
+    delay(30);
     if (digitalRead(pinE1) == LOW) {
-      estadoL1 = !estadoL1;               // Alterna el estado (toggle)
+      estadoL1 = !estadoL1;
       digitalWrite(pinL1, estadoL1 ? HIGH : LOW);
     }
   }
@@ -36,7 +36,7 @@ void loop() {
   if (lecturaE2 == LOW && estadoAnteriorE2 == HIGH) {
     delay(30);
     if (digitalRead(pinE2) == LOW) {
-      estadoL2 = !estadoL2;               // Alterna el estado (toggle)
+      estadoL2 = !estadoL2;
       digitalWrite(pinL2, estadoL2 ? HIGH : LOW);
     }
   }
